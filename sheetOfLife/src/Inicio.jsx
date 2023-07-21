@@ -14,11 +14,11 @@ export default function Inicio() {
             alt="Raul"
           />
         </Link>
-        <Link to={"/Raul"}>
+        <Link to={"/Sara"}>
           <img
             className="rounded float-start mt-2"
             src="/multimedia/Banner.jpg"
-            alt="Raul"
+            alt="Sara"
           />
         </Link>
       </div>

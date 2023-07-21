@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Inicio from "./Inicio";
 import Raul from "./Raul";
-/* import Sara from "Sara.jsx"; */
+import Sara from "./Sara.jsx"; 
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route index element={<Inicio />} />
         <Route path="/Raul" element={<Raul />} />
+        <Route path="/Sara" element={<Sara />} />
       </Routes>
     </div>
   );
