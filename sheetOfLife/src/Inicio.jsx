@@ -6,19 +6,19 @@ export default function Inicio() {
       <div className="container text-center ">
         <h4>Conócenos</h4>
       </div>
-      <div style={{ display: "flex" }}>
+      <div className="d-flex">
         <Link to={"/Raul"}>
           <img
             className="rounded float-start m-2"
-            src="/multimedia/Banner.jpg"
+            src="/multimedia/RaulBanner.jpg"
             alt="Raul"
           />
         </Link>
-        <Link to={"/Raul"}>
+        <Link to={"/Sara"}>
           <img
-            className="rounded float-start mt-2"
-            src="/multimedia/Banner.jpg"
-            alt="Raul"
+            className="rounded float-end mt-2"
+            src="/multimedia/SaraBanner.jpg"
+            alt="Sara"
           />
         </Link>
       </div>
