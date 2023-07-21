@@ -5,11 +5,20 @@ export default function Raul() {
     <div className="container mt-3">
       <h2>Raúl González</h2>
       <hr />
-      <table className="table table-dark table-hover">
+      {/* Datos */}
+      <table className="table table-dark table-hover text-center">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th colspan="3" justify="center">
+            <th scope="col">
+              <img
+                className="rounded"
+                src="/multimedia/Profile.jpg"
+                alt="Raul"
+                height={"75"}
+                width={"75"}
+              />
+            </th>
+            <th colspan="3" style={{ lineHeight: "75px" }}>
               DATOS PERSONALES
             </th>
           </tr>
@@ -48,6 +57,7 @@ export default function Raul() {
         </tbody>
       </table>
       <hr />
+      {/* Estudios */}
       <table className="table table-hover">
         <thead>
           <tr className="table-primary">
@@ -73,6 +83,108 @@ export default function Raul() {
             <td colspan="3">
               Universidad Politécnica Territorial del Estado Trujillo "Mario
               Briceño Iragorry" Titulo obtenido:TSU en Informática
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+      {/* Cursos-talleres */}
+      <table className="table table-dark table-striped-columns table-hover">
+        <thead>
+          <tr>
+            <th colspan="4">CURSOS Y TALLERES REALIZADOS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Nombre del Curso</th>
+            <th>Institución</th>
+            <th>Horas</th>
+            <th>Fecha</th>
+          </tr>
+          <tr>
+            <td>Auxilios Médicos Pre-Hospitalarios</td>
+            <td>“Intituto de Capacitacion Profesional” (Incapro)</td>
+            <th>30 Horas Académicas</th>
+            <td>11/03/2016 al 20/03/2016</td>
+          </tr>
+          <tr>
+            <td>Bernal´s English Course </td>
+            <td>American English Collegue</td>
+            <th>330 Horas Académicas </th>
+            <td>09/11/2011 al 09/11/2012</td>
+          </tr>
+          <tr>
+            <td>Olimpíada Matemática 2014</td>
+            <td>Fundación Empresas Polar; Colegio “Monseñor Mejía”</td>
+            <th>2Horas</th>
+            <td>2014</td>
+          </tr>
+          <tr>
+            <td>Escuela de Lideres Misioneros nivel I (ELMI)</td>
+            <td>Parroquia Espiritu Santo Plata III</td>
+            <th>108 Horas.</th>
+            <td>18/12/2016 al 22/12/2016</td>
+          </tr>
+          <tr>
+            <td>Banquetes (elaboración de pan salado y pan dulce)</td>
+            <td>INCES</td>
+            <th>30 Horas.</th>
+            <td>26/02/2018 al 07/03/2018 </td>
+          </tr>
+          <tr>
+            <td>Electrónica Básica.</td>
+            <td>
+              Centro de Capacitación, Formación y Adiestramiento Técnico
+              Profesional Los Andes; C.C.F.A.T.P Los Andes.
+            </td>
+            <th>48 Horas académicas.</th>
+            <td>01/06/2018 al 15/06/2018</td>
+          </tr>
+          <tr>
+            <td>Auxiliar de farmacia</td>
+            <td>Colegio de farmacéuticos del Edo. Mérida.</td>
+            <th>60 Horas.</th>
+            <td>20/07/2020 al 28/07/2020</td>
+          </tr>
+          <tr>
+            <td>6to Congreso Nacional Juvenil Misionero. -6to CONAJUMI-</td>
+            <td>
+              Obras Misionales Pontificias de Venezuela, Servicio de animación y
+              cooperación misionera juvenil JOVENMISION.
+            </td>
+            <th>108 Horas.</th>
+            <td>26/08/2020 al 30/08/2020</td>
+          </tr>
+          <tr>
+            <td>Asistente Administrativo de Empresas</td>
+            <td>INCES</td>
+            <th>
+              3.736 Horas; 1536 Horas de formación teórica y 2200 de formación
+              práctica –pasantías en la Unidad de Diálisis Andina Valera-
+            </th>
+            <td>15/06/2018 al 20/10/2020</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+      {/* Conocimientos*/}
+      <table className="table table-hover">
+        <thead>
+          <tr className="table-primary">
+            <th colspan="4">CONOCIMIENTOS, HABILIDADES Y DESTREZAS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="table-info">
+            <td colspan="4">
+              Amplios Conocimientos en Programas de Computación, Manejo Óptimo
+              de Internet, Manejo Óptimo de Office. Mantenimiento y soporte
+              técnico de ordenadores. Manejo de Personal, Facilidad de
+              Aprendizaje y de Establecer Buenas Relaciones con Grupos de
+              Trabajo. Dispuesto a Trabajar en Ambientes Bajo Presión. Capacidad
+              de trabajar en Grupo. Animar con Valores a Niños, adolescentes,
+              jóvenes y adultos.
             </td>
           </tr>
         </tbody>

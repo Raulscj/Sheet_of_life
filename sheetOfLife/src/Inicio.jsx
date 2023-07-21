@@ -3,13 +3,25 @@ import { Link } from "react-router-dom";
 export default function Inicio() {
   return (
     <>
-      <div>Inicio</div>
-      <Link to={"/Raul"}>
-        <button type="button" class="btn btn-outline-primary">
-          Raul
-        </button>
-      </Link>
-      <img src="./multimedia/Banner.jpg" alt="" />
+      <div className="container text-center ">
+        <h4>Conócenos</h4>
+      </div>
+      <div style={{ display: "flex" }}>
+        <Link to={"/Raul"}>
+          <img
+            className="rounded float-start m-2"
+            src="/multimedia/Banner.jpg"
+            alt="Raul"
+          />
+        </Link>
+        <Link to={"/Raul"}>
+          <img
+            className="rounded float-start mt-2"
+            src="/multimedia/Banner.jpg"
+            alt="Raul"
+          />
+        </Link>
+      </div>
     </>
   );
 }
