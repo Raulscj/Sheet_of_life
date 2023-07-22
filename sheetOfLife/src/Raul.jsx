@@ -24,7 +24,7 @@ export default function Raul() {
                 width={"75"}
               />
             </th>
-            <th colspan="3" style={{ lineHeight: "75px" }}>
+            <th colSpan="3" style={{ lineHeight: "75px" }}>
               DATOS PERSONALES
             </th>
           </tr>
@@ -67,26 +67,26 @@ export default function Raul() {
       <table className="table table-hover">
         <thead>
           <tr className="table-primary">
-            <th colspan="4">ESTUDIOS REALIZADOS</th>
+            <th colSpan="4">ESTUDIOS REALIZADOS</th>
           </tr>
         </thead>
         <tbody>
           <tr className="table-info">
-            <th colspan="1">Primaria</th>
-            <td colspan="3">
+            <th colSpan="1">Primaria</th>
+            <td colSpan="3">
               U.E Hermanas María Sorrosal 1er Grado a 6to Grado
             </td>
           </tr>
           <tr className="table-primary">
-            <th colspan="1">Secundaria</th>
-            <td colspan="3">
+            <th colSpan="1">Secundaria</th>
+            <td colSpan="3">
               Ciclo Diversificado “C.P. Monseñor Mejia”. Valera Edo. Trujillo
               Venezuela Título obtenido: Bachiller en Ciencias
             </td>
           </tr>
           <tr className="table-info">
-            <th colspan="1">Universitario</th>
-            <td colspan="3">
+            <th colSpan="1">Universitario</th>
+            <td colSpan="3">
               Universidad Politécnica Territorial del Estado Trujillo "Mario
               Briceño Iragorry" Titulo obtenido:TSU en Informática
             </td>
@@ -98,7 +98,7 @@ export default function Raul() {
       <table className="table table-dark table-striped-columns table-hover">
         <thead>
           <tr>
-            <th colspan="4">CURSOS Y TALLERES REALIZADOS</th>
+            <th colSpan="4">CURSOS Y TALLERES REALIZADOS</th>
           </tr>
         </thead>
         <tbody>
@@ -178,12 +178,12 @@ export default function Raul() {
       <table className="table table-hover">
         <thead>
           <tr className="table-primary">
-            <th colspan="4">CONOCIMIENTOS, HABILIDADES Y DESTREZAS</th>
+            <th colSpan="4">CONOCIMIENTOS, HABILIDADES Y DESTREZAS</th>
           </tr>
         </thead>
         <tbody>
           <tr className="table-info">
-            <td colspan="4">
+            <td colSpan="4">
               Amplios Conocimientos en Programas de Computación, Manejo Óptimo
               de Internet, Manejo Óptimo de Office. Mantenimiento y soporte
               técnico de ordenadores. Manejo de Personal, Facilidad de
